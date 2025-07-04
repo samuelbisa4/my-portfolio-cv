@@ -32,7 +32,7 @@ import SectionTitle from './SectionTitle.vue';
         >
     </div>
     <p class="text-gray-500">
-        &copy; {{ new Date().getFullYear() }} Nama Mahasiswa. Dibuat dengan
+        &copy; {{ new Date().getFullYear() }} Samuel Jari Hartako. Dibuat dengan
         ❤️ oleh Anda.
     </p>
     </div>
