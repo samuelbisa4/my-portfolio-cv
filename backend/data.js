@@ -2,11 +2,11 @@
 const educationHistory = [ { id: 1, period: '2023 - Sekarang', institution: 'Universitas Amikom Yogyakarta', major: 'S1 - Teknik Informatika' },
 { id: 2, period: '2019 - 2022', institution: 'SMK NEGERI 1 SUKAMARA', major: 'MULTIMEDIA' } ];
 const skills = [ { name: 'Vue.js', level: 'Mahir' },
-{ name: 'JavaScript', level: 'Mahir' },
+{ name: 'JavaScript', level: 'Menengah' },
 { name: 'Tailwind CSS', level: 'Mahir' },
 { name: 'Node.js', level: 'Menengah' },
-{ name: 'Express.js', level: 'Menengah' },
-{ name: 'PostgreSQL', level: 'Menengah' },
+{ name: 'C++', level: 'Menengah' },
+{ name: 'UI & UX', level: 'Mahir' },
 { name: 'Git & GitHub', level: 'Mahir' },
 { name: 'HTML5 & CSS3', level: 'Mahir' } ];
 const projects = [ {

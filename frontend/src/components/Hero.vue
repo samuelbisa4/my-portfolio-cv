@@ -1,76 +1,52 @@
 <template>
-<section id="profil" class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
-    <div class="md:w-1/2 mb-10 md:mb-0">
-        <h1
-            class="text-5xl font-bold text-gray-800 mb-4 animate-slide-in-left"
-            style="animation-delay: 200ms;"
-        >
-            Halo, Saya <span class="text-blue-600">Samuel Jari Hartako</span>
+<section id="profil" class="bg-blue-50 py-20 w-full">
+    <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+    
+    <!-- Teks kiri -->
+    <div class="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center px-4 text-center md:text-left">
+        <h1 class="text-5xl font-extrabold text-gray-900 mb-4 leading-tight">
+        Halo, Saya <span class="text-blue-600">Samuel Jari Hartako</span>
         </h1>
-        <p
-            class="text-xl text-gray-600 mb-8 animate-slide-in-left"
-            style="animation-delay: 400ms;"
-        >
-            Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain antarmuka.
+        <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+        Mahasiswa Teknik Informatika yang bersemangat dalam pengembangan web dan desain antarmuka.
         </p>
 
-<!-- Badge Skill -->
-    <div
-        class="flex gap-3 mb-8 animate-slide-in-left"
-        style="animation-delay: 500ms;"
-    >
-    <span
-        class="bg-blue-100 text-blue-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    Web Development
-    </span>
-    <span
-        class="bg-green-100 text-green-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    UI/UX Design
-    </span>
-    <span
-        class="bg-purple-100 text-purple-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    JavaScript
-    </span>
-    <span
-        class="bg-red-100 text-red-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    C++
-    </span>
-    <span
-        class="bg-yellow-100 text-yellow-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    C#
-    </span>
-    <span
-        class="bg-teal-100 text-teal-800 text-sm font-semibold px-3 py-1 rounded-full shadow-sm"
-        style="user-select:none;"
-    >
-    Python
-    </span>
-    </div>
-    <a
+        <!-- Badge Skill -->
+        <div class="flex flex-wrap gap-3 mb-8 justify-center md:justify-start">
+        <span class="bg-blue-200 text-blue-900 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">
+            Web Development
+        </span>
+        <span class="bg-green-200 text-green-900 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">
+            UI/UX Design
+        </span>
+        <span class="bg-purple-200 text-purple-900 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">
+            JavaScript
+        </span>
+        <span class="bg-red-200 text-red-900 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">
+            C++
+        </span>
+        <span class="bg-yellow-200 text-yellow-900 text-sm font-semibold px-3 py-1 rounded-full shadow-sm">
+            C#
+        </span>
+        </div>
+
+        <!-- Tombol oval biru dengan teks nyambung -->
+        <a
         href="#kontak"
-        class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block animate-slide-in-left"
-        style="animation-delay: 600ms;"
-    >
-    Hubungi Saya
-    </a>
+        class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 active:bg-blue-800 transition-colors duration-300 select-none inline-block max-w-max whitespace-nowrap"
+        >
+        Hubungi Saya
+        </a>
     </div>
-    <div class="md:w-1/2 flex justify-center animate-slide-in-right">
-    <img
+
+    <!-- Foto Profil kanan -->
+    <div class="md:w-1/2 flex justify-center px-4">
+        <img
         src="/src/assets/samuel.jpeg"
         alt="Foto Profil"
-        class="w-80 h-80 rounded-full object-cover shadow-lg"
-    />
+        class="w-80 h-80 rounded-full object-cover shadow-lg border-4 border-white"
+        />
+    </div>
     </div>
 </section>
 </template>
-
