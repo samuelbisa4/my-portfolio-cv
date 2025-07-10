@@ -17,12 +17,12 @@ const educationHistory = [
 const skills = [
   { name: 'Vue.js', level: 'Mahir' },
   { name: 'JavaScript', level: 'Menengah' },
-  { name: 'Tailwind CSS', level: 'Mahir' },
+  { name: 'Tailwind CSS', level: 'Menengah' },
   { name: 'Node.js', level: 'Menengah' },
   { name: 'C++', level: 'Menengah' },
   { name: 'UI & UX', level: 'Mahir' },
   { name: 'Git & GitHub', level: 'Mahir' },
-  { name: 'HTML5 & CSS3', level: 'Mahir' },
+  { name: 'Canva', level: 'Mahir' },
 ];
 
 const projects = [
