@@ -27,32 +27,32 @@ const skills = [
 
 const projects = [
   {
-    title: 'Website Toko Online',
+    title: 'Figma Belajar Online',
     image: '/src/assets/Belajar.png',
-    description: 'Platform e-commerce dengan fitur keranjang belanja.',
-    tech: ['Vue.js', 'Express.js', 'PostgreSQL'],
-    link: '#',
+    description: 'Platform e-learning dengan antarmuka intuitif dan pengalaman pengguna yang responsif.',
+    tech: ['UI & UX', 'Figma', 'Adobe Photoshop'],
+    link: 'https://www.figma.com/design/ym1k1P7D9qrnjUwGqVMbJe/Portofolio-2?node-id=0-1&p=f&t=UJh0lydjWxt9B02d-0',
   },
   {
-    title: 'Aplikasi Manajemen Tugas',
+    title: 'Figma Desain Wisata',
     image: '/src/assets/Wisata.png',
-    description: 'Aplikasi untuk melacak progres tugas harian.',
-    tech: ['React', 'Firebase'],
-    link: '#',
+    description: 'Desain antarmuka aplikasi wisata digital dengan fitur pencarian destinasi dan booking.',
+    tech: ['UI & UX', 'Figma', 'Adobe Photoshop'],
+    link: 'https://www.figma.com/design/aWlDcdjxzwf14vuxW0JRh8/Portofolio-1?node-id=0-1&p=f&t=X27U1p1MjprGwQaG-0',
   },
   {
-    title: 'Sistem Booking Studio',
+    title: 'Figma Sistem Flowchart',
     image: '/src/assets/Flow.png',
-    description: 'Aplikasi booking studio fotografi secara online.',
-    tech: ['Laravel', 'MySQL', 'Bootstrap'],
-    link: '#',
+    description: 'Perancangan flowchart sistem menggunakan Figma untuk menggambarkan alur proses aplikasi.',
+    tech: ['UI & UX', 'Figma'],
+    link: 'https://www.figma.com/design/xMRzTpidYeushVzdSrtTbB/Flowchart?node-id=0-1&p=f&t=7d2KyYbe7qnYPqjV-0',
   },
   {
-    title: 'Portofolio Interaktif',
+    title: 'Website Dewiji Wisata',
     image: '/src/assets/Dwiji.png',
-    description: 'Website portofolio pribadi dengan animasi modern.',
-    tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
-    link: '#',
+    description: 'Platform wisata interaktif untuk Dewiji Tour, lengkap dengan daftar paket liburan dan formulir pemesanan.',
+    tech: ['Next.js', 'Tailwind CSS', 'php', 'HTML5 & CSS3'],
+    link: 'https://github.com/Arupika/Dewiji',
   } ];
 
 module.exports = { educationHistory, skills, projects };

@@ -10,21 +10,21 @@ import SectionTitle from './SectionTitle.vue';
         Jangan ragu untuk terhubung atau bertanya.
     </p>
     <a
-        href="mailto:emailanda@example.com"
+        href="samuelbisa4@gmail.com"
         class="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block mb-12"
     >
         Kirim Email
     </a>
     <div class="flex justify-center space-x-6 mb-8">
         <a
-        href="#"
+        href="https://github.com/samuelbisa4/my-portfolio-cv"
         target="_blank"
         rel="noopener noreferrer"
         class="text-gray-400 hover:text-white transition-colors duration-300"
         >GitHub</a
         >
         <a
-        href="#"
+        href="https://www.linkedin.com/feed/?trk=hb_signin"
         target="_blank"
         rel="noopener noreferrer"
         class="text-gray-400 hover:text-white transition-colors duration-300"
