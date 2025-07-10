@@ -27,7 +27,7 @@ function triggerBounce() {
       </a>
       <div class="flex justify-center gap-16">
         <a
-          href="https://github.com/samuelbisa4/my-portfolio-cv"
+          href="https://github.com/samuelbisa4"
           target="_blank"
           rel="noopener noreferrer"
           :class="['text-gray-400 hover:text-indigo-400 transition-colors duration-500 flex items-center gap-3 text-xl sm:text-2xl', bounce ? 'animate-bounce-smooth' : '']"

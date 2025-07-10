@@ -16,32 +16,36 @@ onMounted(async () => {
 </script>
 
 <template>
-  <section id="proyek" class="py-20 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-600">
+  <section 
+    id="proyek" 
+    class="py-20 bg-gradient-to-b from-sky-500 via-sky-400 to-sky-300 min-h-[400px]"
+  >
     <div class="container mx-auto px-6">
       <SectionTitle title="Proyek Unggulan" />
       <div class="grid md:grid-cols-2 gap-12">
         <div
           v-for="project in projects"
           :key="project.title"
-          class="bg-white rounded-lg shadow-md border border-blue-700 overflow-hidden transition-transform duration-300 hover:shadow-xl hover:scale-[1.03] cursor-pointer"
+          class="bg-white rounded-xl shadow-lg border border-sky-700 overflow-hidden transition-transform duration-300 ease-in-out
+                hover:shadow-2xl hover:-translate-y-2 hover:scale-[1.05] cursor-pointer"
         >
           <img
             :src="project.image"
             alt="Gambar Proyek"
-            class="w-full h-56 object-cover transition-transform duration-300 hover:scale-105"
+            class="w-full h-56 object-cover transition-transform duration-300 ease-in-out hover:scale-110"
           />
           <div class="p-6">
-            <h3 class="text-2xl font-bold text-blue-900 mb-2 transition-colors duration-300 hover:text-blue-800">
+            <h3 class="text-2xl font-extrabold text-sky-900 mb-3 transition-colors duration-300 hover:text-sky-800">
               {{ project.title }}
             </h3>
-            <p class="text-blue-800 mb-4 transition-colors duration-300 hover:text-blue-900">
+            <p class="text-sky-800 mb-5 transition-colors duration-300 hover:text-sky-900 leading-relaxed">
               {{ project.description }}
             </p>
-            <div class="mb-4">
+            <div class="mb-6">
               <span
                 v-for="tech in project.tech"
                 :key="tech"
-                class="inline-block bg-blue-300 text-blue-900 text-sm font-semibold mr-2 mb-2 px-2.5 py-0.5 rounded-full transition-colors duration-300 hover:bg-blue-400 hover:text-blue-950"
+                class="inline-block bg-sky-300 text-sky-900 text-sm font-semibold mr-2 mb-2 px-3 py-1 rounded-full transition-colors duration-300 hover:bg-sky-400 hover:text-sky-950"
               >
                 {{ tech }}
               </span>
@@ -50,7 +54,7 @@ onMounted(async () => {
               :href="project.link"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-blue-700 font-semibold hover:underline hover:text-blue-900 transition-colors duration-300"
+              class="inline-block text-sky-700 font-semibold hover:underline hover:text-sky-900 transition-colors duration-300"
             >
               Lihat Detail &rarr;
             </a>
