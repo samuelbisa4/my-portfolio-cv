@@ -19,7 +19,7 @@ function triggerBounce() {
         Jangan ragu untuk terhubung atau bertanya. Saya siap membantu!
       </p>
       <a
-        href="mailto:samuelbisa4@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=samuelbisa4@gmail.com&su=Halo&body=Hi%20Broh%2C%0A"
         class="inline-block bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-indigo-600 hover:to-purple-600 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transform transition duration-200 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-purple-400 max-w-xs w-full text-center"
         aria-label="Kirim Email ke Samuel"
       >
@@ -42,7 +42,7 @@ function triggerBounce() {
           GitHub
         </a>
         <a
-          href="https://www.linkedin.com/feed/?trk=hb_signin"
+          href="https://www.linkedin.com/in/samuel-bisa-345b35353/"
           target="_blank"
           rel="noopener noreferrer"
           :class="['text-gray-400 hover:text-indigo-400 transition-colors duration-500 flex items-center gap-3 text-xl sm:text-2xl', bounce ? 'animate-bounce-smooth' : '']"
