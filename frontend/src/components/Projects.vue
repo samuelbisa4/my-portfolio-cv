@@ -5,12 +5,16 @@ import SectionTitle from './SectionTitle.vue';
 
 const projects = ref([]);
 
+const API_URL = import.meta.env.PROD
+  ? '/api/projects'
+  : 'http://localhost:3000/api/projects';
+
 onMounted(async () => {
   try {
-    const response = await axios.get('http://localhost:3000/api/projects');
-    projects.value = response.data;
+    const { data } = await axios.get(API_URL);
+    projects.value = data;
   } catch (error) {
-    console.error(error);
+    console.error('Gagal mengambil data proyek:', error);
   }
 });
 </script>

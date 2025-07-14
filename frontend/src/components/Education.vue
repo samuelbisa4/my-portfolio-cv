@@ -5,12 +5,16 @@ import SectionTitle from './SectionTitle.vue';
 
 const educationHistory = ref([]);
 
+const API_URL = import.meta.env.PROD
+  ? '/api/education'
+  : 'http://localhost:3000/api/education';
+
 onMounted(async () => {
   try {
-    const response = await axios.get('http://localhost:3000/api/education');
-    educationHistory.value = response.data;
+    const { data } = await axios.get(API_URL);
+    educationHistory.value = data;
   } catch (error) {
-    console.error(error);
+    console.error('Failed to fetch education data:', error);
   }
 });
 </script>
